@@ -7,5 +7,23 @@
             "email": "dev.kobus@gmail.com"
         }
     ],
-    "require": {}
+	"autoload": {
+		"psr-4": {
+			"Currency\\": "src/"
+		}
+	},
+    "require": {
+        "symfony/cache": "^3.4",
+        "symfony/console": "^3.4",
+        "symfony/debug": "^3.4",
+        "symfony/dependency-injection": "^3.4",
+        "symfony/dotenv": "^3.4",
+        "symfony/event-dispatcher": "^3.4",
+        "symfony/stopwatch": "^3.4",
+        "symfony/translation": "^3.4",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
 }
