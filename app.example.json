@@ -1,0 +1,55 @@
+{
+	"local": {
+		"ip": "127.0.0.1",
+		"database": {
+			"host": "127.0.0.1",
+			"port": "3306",
+			"database": "currency_api",
+			"passport": ""
+		},
+		"connectivty": {
+			"currency_layer": {
+				"token": ""
+			},
+			"fixer": {
+				"token": ""
+			}
+		}
+	},
+
+	"staging": {
+		"ip": "127.0.0.1",
+		"database": {
+			"host": "127.0.0.1",
+			"port": "3306",
+			"database": "currency_api",
+			"passport": ""
+		},
+		"connectivty": {
+			"currency_layer": {
+				"token": ""
+			},
+			"fixer": {
+				"token": ""
+			}
+		}
+	},
+
+	"production": {
+		"ip": "127.0.0.1",
+		"database": {
+			"host": "127.0.0.1",
+			"port": "3306",
+			"database": "currency_api",
+			"passport": ""
+		},
+		"connectivty": {
+			"currency_layer": {
+				"token": ""
+			},
+			"fixer": {
+				"token": ""
+			}
+		}
+	}
+}
