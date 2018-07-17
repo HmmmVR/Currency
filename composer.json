@@ -25,5 +25,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
-    }
+    },
+	"scripts": {
+		"test": "./vendor/bin/phpunit --testsuite unit"
+	}
 }
