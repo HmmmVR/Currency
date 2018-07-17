@@ -1,0 +1,11 @@
+{
+    "name": "hmmmvr/currency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kobus",
+            "email": "dev.kobus@gmail.com"
+        }
+    ],
+    "require": {}
+}
